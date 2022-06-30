@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Poppins', sans-serif;    
+}
+
+#nav{
+    /* border: 1px solid red; */
+    border-bottom: 1px solid gray;
+    display: flex;
+    justify-content: space-between;
+    position: sticky;
+    width: 100%;
+    padding: 11px;
+}
+
+#list{
+    display: flex;
+    list-style: none;   
+}
+
+li{
+    margin: 10px;
+    font-weight: 800;
+    cursor: pointer; 
+}
+
+#chat-btn{
+    padding: 5px;
+    margin: 10px;
+    background-color: white;
+    border: 1px solid black;
+    font-weight: 800;
+    cursor: pointer;
+
+}
+
+#chat-btn:hover{
+    background-color: black;
+    color: white;
+
+}
+
+#dot{
+    color: red;
+}
+
+#arrow{
+    height: 10px;
+    width: 10px;
+}
+
+#title{
+    cursor: pointer;
+}
+
+h1{
+    font-weight:1000;
+}

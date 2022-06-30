@@ -6,6 +6,11 @@
     box-sizing: border-box;
     font-family: 'Inter', sans-serif;
 }
+#nav{
+    border: 1px solid red;
+    position:fixed;
+    color: white;
+}
 
 #container{
     /* position: absolute; */
@@ -13,7 +18,7 @@
     justify-content: center;
     align-items: center;
     /* border: 1px solid black; */
-    height: 100vh;
+    height: 1000vh;
     background-image: url("nicolas.jpg");
     background-size: cover;
     background-repeat: no-repeat;
