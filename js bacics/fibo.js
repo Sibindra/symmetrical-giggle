@@ -11,3 +11,8 @@ function fibo(n){
 for(let i=0;i<20;i++){
     console.log(fibo(i));
 }
+
+// iffi to call function instantly
+(()=>{
+    console.log("arrow function");
+})();
