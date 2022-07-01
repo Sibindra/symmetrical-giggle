@@ -7,7 +7,15 @@
         <title>js pracitce</title>
     </head>
     <body>
+        <button id="btn" style="cursor: pointer">click me</button>
+
         <script src="variables.js"></script>
         <script src="function.js"></script>
+
+        <script>
+            document.getElementById("btn").onclick = () => {
+                console.log("Hello");
+            };
+        </script>
     </body>
 </html>
